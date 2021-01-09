@@ -1,0 +1,37 @@
+{
+  "name": "project",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "lib/ReplicatedStorage",
+      "TestEZ": {
+        "$path": "modules/testez/src"
+      },
+      "Tests": {
+        "$path": "Tests.lua"
+      },
+      "mock": {
+        "$path": "modules/lua-mock/src"
+      },
+      "inspect": {
+        "$path": "modules/inspect.lua/inspect.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "lib/StarterPlayer/StarterPlayerScripts"
+      },
+      "$ignoreUnknownInstances": true
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "$path": "lib/ServerScriptService"
+    }
+  }
+}
